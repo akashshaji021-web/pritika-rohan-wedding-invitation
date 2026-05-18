@@ -50,6 +50,8 @@ body {
 /* move P left */
 .p-letter {
   transform: translateX(2px);
+  font-size: 65px;
+  margin-top: 3px;
 }
 
 
@@ -455,15 +457,17 @@ body {
 }
 
 /* IMAGE */
-.ring-photo {
-  width: 900px;
-  max-width: 92%;
-  border-radius: 2px;
-
-  box-shadow:
-    0 10px 30px rgba(0,0,0,0.08);
+.ring-photo{
+  width: 100%;
+  max-width: 380px;
+  height: auto;
 
   object-fit: cover;
+  display: block;
+
+  margin: 0 auto;
+  margin-top: -60px;
+
 }
 
 /* TITLE */
@@ -490,6 +494,33 @@ body {
   color: #777;
 }
 
+
+
+
+@media (max-width: 768px){
+
+  .main-card{
+    margin-top: -60px !important;
+  }
+
+}
+
+.main-card{
+
+  margin-top: -60px;
+
+}
+
+
+
+.seal{
+
+  box-shadow:
+    inset -12px -12px 25px rgba(31, 24, 23, 0.508),
+    inset 10px 10px 20px rgba(12, 11, 11, 0.393),
+    0 12px 25px rgba(13, 2, 2, 0.463);
+
+}
 
 
 
@@ -570,6 +601,14 @@ body {
 
 
 
+.r-letter{
+  position: relative;
+  left: -11px;
+}
+
+
+
+
 
 /* ===================================== */
 /* MOBILE VIEW */
@@ -580,9 +619,20 @@ body {
   /* LANDING */
 
 .p-letter {
-  transform: translateX(-6px)!important;
+  transform: translateX(-2px)!important;
+  font-size: 60px !important;
 }
 
+.seal-text{
+  transform: translateX(2px);
+}
+
+
+.r-letter{
+  position: relative;
+  left: -7px;
+  font-size: 65px !important;
+}
 
 
   .seal {
@@ -724,10 +774,49 @@ body {
 
   
 @media (max-width: 768px) {
+
   .photo-page {
-    margin-top: -40px;
+    margin-top: 10px;
+    padding: 40px 20px;
   }
+
+  .ring-photo{
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .photo-title{
+    font-size: 42px !important;
+
+    line-height: 1.1;
+
+    margin-top: 22px;
+    text-align: center;
+  }
+
+  .photo-subtitle{
+    font-size: 12px !important;
+
+    letter-spacing: 4px;
+
+    margin-top: 10px;
+
+    text-align: center;
+  }
+
 }
+
+body{
+  overflow-x: hidden;
+}
+
 
 
 

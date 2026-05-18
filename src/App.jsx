@@ -18,9 +18,11 @@ function App() {
 
           {/* FIXED A & P SPACING */}
           <h1 className="seal-text">
-            A
-            <span className="amp">&</span>
-            <span className="p-letter">P</span>
+           <span className="r-letter">R</span>
+
+<span className="amp">&</span>
+
+<span className="p-letter">P</span>
           </h1>
 
         </div>
@@ -96,7 +98,7 @@ function App() {
 
 
         <h1 className="name">
-          Ashik
+          Rohan
         </h1>
 
         <p className="and">
@@ -104,7 +106,7 @@ function App() {
         </p>
 
         <h1 className="name">
-          Priyanka
+          Pritika
         </h1>
 
         <p className="desc">
@@ -140,7 +142,7 @@ function App() {
           </h1>
 
           <p className="time-text">
-            AT 11 O'CLOCK IN THE MORNING
+            AT 10 O'CLOCK IN THE MORNING
           </p>
 
           <div className="divider-line"></div>
@@ -155,38 +157,7 @@ function App() {
 
         </div>
 
-        {/* SMALL CARD */}
-        <div className="event-card small-card">
-
-          <p className="small-title">
-            RECEPTION
-          </p>
-
-  
-    <p className="dayto">SUNDAY</p>
-
-<h1 className="main-date reception-date">
-  <span>June</span> 7th, 2026
-</h1>
-
-          
-
-           <p className="time-text">
-            From 4:30 PM – 8:30 PM
-          </p>
-
-
-        <p className="reception-venue">
-  SREEPADMAM AUDITORIUM WEST FORT 
-</p>
-
-
-         <p className="reception-place">
-  TRIVANDRUM
-</p>
-
-        </div>
-
+       
       </section>
 
       {/* FINAL PHOTO PAGE */}
